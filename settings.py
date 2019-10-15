@@ -1,4 +1,4 @@
-#this is the file used by docker to get all the secret keys
+#this is the file used by main.py to get all the secret keys
 #The secret keys are (to be) stored as ENVIRONMENT VARIABLES
 #A sample is given in envlist-sample
 
