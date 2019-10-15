@@ -21,7 +21,7 @@ def post_fetcher(SUBREDDIT):
 		new_submissions.append(submission.id)
 	return new_submissions
 while True:
-	print("starting to fetch submissions.")
+	print("Fetching submissions.")
 	submissions_1 = post_fetcher(subreddit)
 	time.sleep(60)
 	submissions_2 = post_fetcher(subreddit)
