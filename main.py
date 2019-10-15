@@ -17,7 +17,7 @@ subreddit = reddit_client.subreddit(subreddit_name)
 
 def post_fetcher(SUBREDDIT):
 	new_submissions = []
-	for submission in subreddit.new(limit=100)
+	for submission in subreddit.new(limit=100):
 		new_submissions.append(submission.id)
 	return new_submissions
 while True:
