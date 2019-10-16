@@ -1,5 +1,5 @@
 # subreddit-notifier
-A simple python script that utilizes praw and termux API to send a notification whenever there is a new post in the user specified subreddit. Checks for new posts every minute. Works with termux.
+A simple python script that utilizes praw and termux API to send a notification whenever there is a new submission in the user specified subreddit. Checks for new submissions every minute. Works with termux.
 
 ## Usage
 clone the repository:
